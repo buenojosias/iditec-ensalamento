@@ -1,0 +1,58 @@
+<div>
+    <div class="header">
+        <div class="header-left">
+            <h3>Turmas em andamento</h3>
+            <p>Visão geral das turmas em andamento.</p>
+        </div>
+        <div class="header-right">
+            {{-- <x-ts-toggle label="Mostrar apenas ativos" wire:model.live="onlyActive" /> --}}
+        </div>
+    </div>
+    <div
+        class="table-wrapper">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th width="10">
+                        <x-ts-checkbox />
+                    </th>
+                    <th>Código</th>
+                    <th>Módulo</th>
+                    <th>Prefixo</th>
+                    <th>Alunos</th>
+                    <th width="10"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach ($this->teams as $team)
+                    <tr>
+                        <td>
+                            <x-ts-checkbox />
+                        </td>
+                        <td>{{ $team->id }}</td>
+                        <td>{{ $team->module->name }} ({{ $team->module->code }})</td>
+                        <td>{{ $team->prefix }}</td>
+                        <td>
+                            <span title="Número apresentado no mapa de turmas">X</span>
+                            /
+                            <span title="Número de alunos importados">{{ $team->students_number }}</span>
+                        </td>
+                        <td>
+                            {{-- <x-ts-button x-on:click="$dispatch('load-module', [{{ $module->id }}])" icon="pencil" text="Editar" sm flat /> --}}
+                        </td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
+    </div>
+
+    <div class="footer">
+        <div class="footer-left">
+            <p>Total de turmas: {{ $this->teams->count() }}</p>
+        </div>
+        <div class="footer-right">
+            <livewire:teams.create-manually period="current" @saved="$refresh" />
+        </div>
+    </div>
+    {{-- <livewire:modules.edit @saved="$refresh" /> --}}
+</div>

@@ -1,0 +1,3188 @@
+[
+    {
+        "codigo": "1725",
+        "nome": "Clara Rodrigues De Barros",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01 - ADM TEC - INTRODUÇÃO INF",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 93,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 88
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 20,
+                "frequencia": 86
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 93,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 88
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 20,
+                "frequencia": 86
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "1745",
+        "nome": "Sofia Rodrigues Barros",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01 - ADM TEC - INTRODUÇÃO INF",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 98,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 88
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 71,
+                "frequencia": 86
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 98,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 88
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 71,
+                "frequencia": 86
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "2852",
+        "nome": "Juliana Raimundo Coelho",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 91,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 71,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "IA - INTELIGENCIA ARTIFICIAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "NAO CONCLUIDO 03-ADMINISTRATIV",
+                "nota": 0,
+                "frequencia": 0
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 71,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "IA - INTELIGENCIA ARTIFICIAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "NAO CONCLUIDO 03-ADMINISTRATIV",
+                "nota": 0,
+                "frequencia": 0
+            }
+        ]
+    },
+    {
+        "codigo": "2869",
+        "nome": "Beatriz Reges Stange",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 83,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 95,
+                "frequencia": 75
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 95,
+                "frequencia": 88
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 96,
+                "frequencia": 75
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 85,
+                "frequencia": 89
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 88,
+                "frequencia": 88
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 75,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 80,
+                "frequencia": 86
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 75
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "NAO CONCLUIDO 06-EDIÇÃO FOTOGR",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 95,
+                "frequencia": 75
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 95,
+                "frequencia": 88
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 96,
+                "frequencia": 75
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 85,
+                "frequencia": 89
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 88,
+                "frequencia": 88
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 75,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 80,
+                "frequencia": 86
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 75
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "NAO CONCLUIDO 06-EDIÇÃO FOTOGR",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "2896",
+        "nome": "Maicon Caio Messias Siemiatkowski",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 86,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 89,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 93,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 97,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 89,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 93,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 97,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "2900",
+        "nome": "Leandro Henrique Rodrigues Moura",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 85,
+                "frequencia": 88
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 92,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 92,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 90,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "2913",
+        "nome": "Jean Charlles Kuritza",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01 - ADM TEC - INTRODUÇÃO INF",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 88,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 88,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "2915",
+        "nome": "Kayke Ferreira Kamarowski",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01 - ADM TEC - INTRODUÇÃO INF",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 71,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 92,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 71,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 92,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "2944",
+        "nome": "Nicoly Modesto GalvÃo",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01 - ADM TEC - INTRODUÇÃO INF",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 50,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 95,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 50,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 95,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 90,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3007",
+        "nome": "Marcos Paulo Camargo",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01 - ADM TEC - INTRODUÇÃO INF",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3074",
+        "nome": "Nathalli Dos Santos Muniz",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 0,
+                "frequencia": 86
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 80,
+                "frequencia": 89
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 89,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 86
+            },
+            {
+                "nome": "IA - INTELIGENCIA ARTIFICIAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 80,
+                "frequencia": 89
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 89,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 86
+            },
+            {
+                "nome": "IA - INTELIGENCIA ARTIFICIAL",
+                "nota": 100,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3142",
+        "nome": "Erik Vitor Ribeiro Silva",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 88,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 71,
+                "frequencia": 83
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 79,
+                "frequencia": 86
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 88,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 71,
+                "frequencia": 83
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 79,
+                "frequencia": 86
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3143",
+        "nome": "Carolina Da Silva Makoski",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 91,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 82,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 90,
+                "frequencia": 86
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 91,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 82,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 90,
+                "frequencia": 86
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 90,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3218",
+        "nome": "Kauany Ferreira Dos Santos Vieira",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 80,
+                "frequencia": 88
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 88,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 88,
+                "frequencia": 71
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 75
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 0,
+                "frequencia": 75
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 92,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 88,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 88,
+                "frequencia": 71
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 75
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 0,
+                "frequencia": 75
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 92,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            }
+        ]
+    },
+    {
+        "codigo": "3223",
+        "nome": "Matheus Ozorio Carneiro",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 81,
+                "frequencia": 88
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 95,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 81,
+                "frequencia": 88
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 95,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3316",
+        "nome": "Julia Neves Padilha",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 84,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3317",
+        "nome": "Nathaly Vitoria Rodrigues Do Rosario",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 82,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 91,
+                "frequencia": 90
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 71,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 91,
+                "frequencia": 90
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 71,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3355",
+        "nome": "Karine De Oliveira Da Silva",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 80,
+                "frequencia": 71
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 50,
+                "frequencia": 57
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 80,
+                "frequencia": 71
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 50,
+                "frequencia": 57
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3384",
+        "nome": "Leonardo Ferreira Pedrosa",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 0,
+                "frequencia": 88
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 0,
+                "frequencia": 88
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            }
+        ]
+    },
+    {
+        "codigo": "3397",
+        "nome": "Flavia Paulino Da Silva",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3407",
+        "nome": "Guilherme Silva Dranka",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 95,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 86
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 86
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3409",
+        "nome": "Maria Edurada Lima",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 90,
+                "frequencia": 86
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 95,
+                "frequencia": 88
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 75,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 90,
+                "frequencia": 86
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 95,
+                "frequencia": 88
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 75,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            }
+        ]
+    },
+    {
+        "codigo": "3410",
+        "nome": "Antonio Da Costa Alves",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            }
+        ]
+    },
+    {
+        "codigo": "3414",
+        "nome": "Kevyn Matheus De Souza Dos Santos",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 91,
+                "frequencia": 88
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 73,
+                "frequencia": 83
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 95,
+                "frequencia": 86
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 0,
+                "frequencia": 75
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 73,
+                "frequencia": 83
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 95,
+                "frequencia": 86
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 0,
+                "frequencia": 75
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            }
+        ]
+    },
+    {
+        "codigo": "3420",
+        "nome": "Leonardo Henrique Reinoso Melo",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 89,
+                "frequencia": 86
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 80,
+                "frequencia": 71
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 75,
+                "frequencia": 88
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 89,
+                "frequencia": 86
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 80,
+                "frequencia": 71
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 75,
+                "frequencia": 88
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            }
+        ]
+    },
+    {
+        "codigo": "3422",
+        "nome": "Iasmin Gregorini",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3425",
+        "nome": "Amanda LetÍcia Gouveia Souza",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 87,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 75,
+                "frequencia": 86
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 95,
+                "frequencia": 88
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 75,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 75,
+                "frequencia": 86
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 95,
+                "frequencia": 88
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 75,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 80
+            }
+        ]
+    },
+    {
+        "codigo": "3435",
+        "nome": "Nathan Krebs Cordeiro",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 86
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 91,
+                "frequencia": 88
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 60
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 86
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 91,
+                "frequencia": 88
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 60
+            }
+        ]
+    },
+    {
+        "codigo": "3436",
+        "nome": "Jean Gabriel Kamarowski Laminn",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 89,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3437",
+        "nome": "Adrian Ribeiro Evangelista",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 89,
+                "frequencia": 88
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 89,
+                "frequencia": 88
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 80,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3485",
+        "nome": "Bryan Silva Reis",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 95,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "03-ADMINISTRATIVO",
+                "nota": 95,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3658",
+        "nome": "Lais Cassia LourenÇo Costa",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 97,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 79,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 67
+            },
+            {
+                "nome": "IA - INTELIGENCIA ARTIFICIAL",
+                "nota": 95,
+                "frequencia": 100
+            },
+            {
+                "nome": "08-DESIGNER GRAFICO",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "09-YOUTUBER",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "10-GESTÃO DE PESSOAS",
+                "nota": 79,
+                "frequencia": 88
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 67
+            },
+            {
+                "nome": "IA - INTELIGENCIA ARTIFICIAL",
+                "nota": 95,
+                "frequencia": 100
+            }
+        ]
+    },
+    {
+        "codigo": "3707",
+        "nome": "Yasmin Dos Santos RomÃo",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "01-TECNOLOGIA DA INFORMAÇÃO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 85,
+                "frequencia": 88
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 60
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "NAO CONCLUIDO IA - INTELIGENCI",
+                "nota": 0,
+                "frequencia": 33
+            },
+            {
+                "nome": "02-ARTE DIGITAL",
+                "nota": 85,
+                "frequencia": 88
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 90,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 60
+            },
+            {
+                "nome": "POWERPOINT",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "NAO CONCLUIDO IA - INTELIGENCI",
+                "nota": 0,
+                "frequencia": 33
+            }
+        ]
+    },
+    {
+        "codigo": "3710",
+        "nome": "Thayla Santos De Jesus",
+        "status": "A",
+        "turma": "4329",
+        "prefixo": "703-",
+        "modulos": [
+            {
+                "nome": "04-EDITOR DE TEXTO",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 92,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            },
+            {
+                "nome": "05-PLANILHAS",
+                "nota": 100,
+                "frequencia": 100
+            },
+            {
+                "nome": "06-EDIÇÃO FOTOGRAFICA",
+                "nota": 92,
+                "frequencia": 100
+            },
+            {
+                "nome": "07-MARKETING DIGITAL",
+                "nota": 85,
+                "frequencia": 100
+            },
+            {
+                "nome": "11-CONTABIL",
+                "nota": 0,
+                "frequencia": 100
+            }
+        ]
+    }
+]

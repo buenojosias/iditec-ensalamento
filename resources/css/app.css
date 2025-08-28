@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.internal-menu {
+    @apply flex gap-6 ml-4;
+}
+.internal-menu li {
+    @apply text-sm text-gray-600 hover:text-gray-900;
+}
+.internal-menu li .active {
+    @apply font-semibold;
+}
+
+.header {
+    @apply w-full flex flex-col md:flex-row justify-between md:items-center mb-4 mt-1 pl-3;
+}
+.header-left {
+    @apply flex-1;
+}
+.header-left h3 {
+    @apply text-lg font-semibold text-slate-800;
+}
+.header-left p {
+    @apply text-sm text-slate-500;
+}
+.header-right {
+    @apply md:ml-3;
+}
+
+.footer {
+    @apply w-full flex flex-col md:flex-row justify-between md:items-center mt-4 p-3;
+}
+.footer-left {
+    @apply flex-1;
+}
+
+.footer-right {
+    @apply md:ml-3;
+}
+
+.table-wrapper {
+    @apply relative flex flex-col w-full h-full overflow-auto text-gray-700 bg-white shadow-md rounded-lg bg-clip-border;
+}
+.table {
+    @apply w-full text-left table-auto min-w-max;
+}
+.table th {
+    @apply p-4 border-b border-slate-300 bg-slate-50 text-sm leading-none text-slate-500;
+}
+.table tbody tr {
+    @apply hover:bg-slate-50;
+}
+.table > tbody > tr > td {
+    @apply p-4 border-b border-slate-200 text-sm text-slate-500;
+}
+.table > tbody > tr > td:first-child {
+    @apply font-semibold text-slate-800;
+}
