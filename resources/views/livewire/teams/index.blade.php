@@ -14,7 +14,7 @@
             <thead>
                 <tr>
                     <th width="10">
-                        <x-ts-checkbox />
+                        <x-ts-checkbox sm />
                     </th>
                     <th>Código</th>
                     <th>Módulo</th>
@@ -27,7 +27,7 @@
                 @foreach ($this->teams as $team)
                     <tr>
                         <td>
-                            <x-ts-checkbox />
+                            <x-ts-checkbox sm />
                         </td>
                         <td>{{ $team->id }}</td>
                         <td>{{ $team->module->name }} ({{ $team->module->code }})</td>

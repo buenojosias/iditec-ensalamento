@@ -21,7 +21,7 @@
                 <thead>
                     <tr>
                         <th width="10">
-                            <x-ts-checkbox wire:model.live="selectAll" />
+                            <x-ts-checkbox wire:model.live="selectAll" sm />
                         </th>
                         <th>Código</th>
                         <th>Módulo</th>
@@ -36,7 +36,7 @@
                                 @if ($team['saved'])
                                     <x-ts-icon name="check" color="green" class="w-5 h-5" />
                                 @else
-                                    <x-ts-checkbox :id="'team-' . $team['id']" wire:model="selectedTeams" :value="$team['id']" />
+                                    <x-ts-checkbox :id="'team-' . $team['id']" wire:model="selectedTeams" :value="$team['id']" sm />
                                 @endif
                             </td>
                             <td>{{ $team['id'] }}</td>
