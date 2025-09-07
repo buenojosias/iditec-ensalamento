@@ -1,31 +1,42 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Services;
 
 use App\Models\Module;
 use App\Models\Team;
-use Illuminate\Http\Request;
 use Smalot\PdfParser\Parser;
 
-class TeamController extends Controller
+class ExtractStudentsService
 {
-    public function index()
+    static public function extract($filePath, $team_id)
     {
-        $teamId = 4330;
-        $file = $teamId . '.pdf';
-
-        $allModules = Module::all();
-        $team = Team::with('module')->findOrFail($teamId);
+        $file = storage_path($filePath);
 
         $parser = new Parser();
-        $pdf = $parser->parseFile(storage_path('turmas/' . $file));
+        $pdf = $parser->parseFile($file);
+        $text = $pdf->getText();
+
+        if (preg_match('/Turma\(s\):\s*;(\d{4});/u', $text, $mTeam)) {
+            $teamId = $mTeam[1];
+            if ($teamId != $team_id) {
+                return [
+                    'error' => "O código da turma no arquivo ($teamId) não corresponde ao código selecionado ($team_id).",
+                ];
+            }
+        } else {
+            return [
+                'error' => "Não foi possível identificar o código da turma no arquivo.",
+            ];
+        }
 
         $ids = [];
         $students = [];
+        $allModules = Module::all();
+        $team = Team::with('module')->findOrFail($teamId);
 
-        $teamPrefix = $team->schedule ?? null;
-        if ($teamPrefix) {
-            $teamPrefix = preg_replace('/-\d+$/', '', $teamPrefix);
+        $schedule = $team->schedule ?? null;
+        if ($schedule) {
+            $schedule = preg_replace('/-\d+$/', '', $schedule);
         }
 
         foreach ($pdf->getPages() as $page) {
@@ -49,16 +60,6 @@ class TeamController extends Controller
                 return !preg_match('/^(1 - IDITEC|0529-TURMAS|Pg:|\d+\/\d+|St Turma Atual|Doc de impressora|IDITEC\s*$)/u', $row);
             }));
             $text = implode("\n", $rows);
-
-            // // Captura número da turma no cabeçalho, se ainda não capturado
-            // if (!$teamId && preg_match('/Turma\(s\):\s*;(\d{4});/u', $text, $mTurma)) {
-            //     $teamId = $mTurma[1];
-            // }
-
-            // if (!$teamId) {
-            //     // fallback (se por algum motivo não achou na página corrente)
-            //     continue;
-            // }
 
             $studentTemplate = '/^(\d{5})\s+([^\n]+?)\s*([AB])\s+' . $teamId . '\s+(\d{3}-)\s*(.*?)(?=(?:\n\d{5}\s)|\z)/usm';
 
@@ -100,25 +101,29 @@ class TeamController extends Controller
                         }
                     }
 
-                    if (!$teamPrefix) {
-                        $teamPrefix = $prefix; // Captura o prefixo da turma se ainda não foi definido
+                    if (!$schedule) {
+                        $schedule = $prefix; // Captura o prefixo da turma se ainda não foi definido
                     }
+
+                    $modules_not_found = array_filter($modules, fn($mod) => $mod['id'] === null);
 
                     $students[] = [
                         'id' => $id,
                         'name' => $name,
                         'status' => $status,
-                        'team' => $teamId,
-                        'schedule' => $teamPrefix,
+                        // 'team_id' => (int) $teamId,
+                        'schedule' => $schedule,
+                        'saved' => false,
                         'modules' => $modules,
+                        'has_missing_modules' => count($modules_not_found) > 0,
                     ];
                 }
             }
         }
 
         // Remover ids 72852 e 72896 do array de alunos apenas para teste
-        // $students = array_filter($students, fn($student) => $student['id'] !== '72852');
-        // $students = array_filter($students, fn($student) => $student['id'] !== '72896');
+        $students = array_filter($students, fn($student) => $student['id'] !== 72852);
+        $students = array_filter($students, fn($student) => $student['id'] !== 72896);
 
         // Conferência dos ids
         $totalIds = count($ids);
@@ -138,26 +143,20 @@ class TeamController extends Controller
         // echo "IDs únicos no texto: " . count($uniqueIds) . "<br>\n";
         // echo "Total de alunos extraídos: {$totalExtractedStudents}<br><hr>\n";
 
-        // if (count($uniqueIds) != $team->students_number) {
-        //     echo "⚠️ Atenção: quantidade de IDs únicos (".count($uniqueIds).") não confere com a quantidade esperada de alunos ({$teamModule['students_count']})!\n";
-        // } else {
-        //     echo "✅ Quantidade de IDs únicos confere com a quantidade esperada de alunos.\n";
-        // }
-
-        // if (!empty($missing)) {
-        //     echo "⚠️ IDs encontrados no texto mas não extraídos: " . implode(', ', $missing) . "\n";
-        // } else {
-        //     echo "✅ Todos os IDs encontrados no texto foram extraídos.\n";
-        // }
-
-        // Modules grouped
-        $groupedModules = [];
-        foreach ($students as $student) {
-            foreach ($student['modules'] as $module) {
-                $groupedModules[$module['name']][] = $student['id'];
-            }
+        if (count($extractedIds) != $team->students_number) {
+            $quantityPassed = false;
+        } else {
+            $quantityPassed = true;
         }
 
-        return response()->json([$team, $students]);
+        unlink($file);
+
+        return [
+            'team_id' => (int) $teamId,
+            'quantity_passed' => $quantityPassed,
+            'total_extracted_students' => $totalExtractedStudents,
+            'missing_ids' => array_values($missing),
+            'students' => $students,
+        ];
     }
 }

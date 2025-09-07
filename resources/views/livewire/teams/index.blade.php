@@ -29,8 +29,14 @@
                         <td>
                             <x-ts-checkbox sm />
                         </td>
-                        <td>{{ $team->id }}</td>
-                        <td>{{ $team->module->name }} ({{ $team->module->code }})</td>
+                        <td>
+                            <a href="{{ route('teams.show', $team) }}">{{ $team->id }}</a>
+                        </td>
+                        <td>
+                            <a href="{{ route('teams.show', $team) }}">
+                                {{ $team->module->name }} ({{ $team->module->code }})
+                            </a>
+                        </td>
                         <td>{{ $team->prefix }}</td>
                         <td>
                             <span title="Número apresentado no mapa de turmas">X</span>

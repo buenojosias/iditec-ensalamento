@@ -24,4 +24,9 @@ class Team extends Model
     {
         return $this->belongsTo(Module::class);
     }
+
+    public function students()
+    {
+        return $this->hasMany(Student::class, 'current_team_id');
+    }
 }

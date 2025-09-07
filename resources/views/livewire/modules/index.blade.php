@@ -37,7 +37,7 @@
                             <x-ts-badge :text="$module->active ? 'Ativo' : 'Arquivado'" :color="$module->active ? 'green' : 'orange'" round outline />
                         </td>
                         <td>{{ $module->teams_count }}</td>
-                        <td>NaN</td>
+                        <td>{{ $module->students_count }}</td>
                         <td>
                             <x-ts-button x-on:click="$dispatch('load-module', [{{ $module->id }}])" icon="pencil" text="Editar" sm flat />
                         </td>
