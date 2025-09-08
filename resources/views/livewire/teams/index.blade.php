@@ -39,7 +39,7 @@
                         </td>
                         <td>{{ $team->prefix }}</td>
                         <td>
-                            <span title="Número apresentado no mapa de turmas">X</span>
+                            <span title="Número apresentado no mapa de turmas">{{  $team->students_count }}</span>
                             /
                             <span title="Número de alunos importados">{{ $team->students_number }}</span>
                         </td>

@@ -17,7 +17,8 @@ class StudentFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'id' => $this->faker->unique()->numberBetween(80000, 99999),
+            'name' => $this->faker->firstName(). ' ' . $this->faker->lastName(),
         ];
     }
 }

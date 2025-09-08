@@ -15,9 +15,8 @@ class Index extends Component
     {
         return Module::orderBy('name')
             ->when($this->onlyActive, fn($query) => $query->where('active', true))
-            ->withCount('teams')
-            // with count of students where pivot is like 'C'
-            ->withCount(['students' => fn($query) => $query->where('situation', 'C')])
+            // ->withCount('teams')
+            ->withCount(['teams', 'students' => fn($query) => $query->where('situation', 'C')])
             ->get();
     }
 
