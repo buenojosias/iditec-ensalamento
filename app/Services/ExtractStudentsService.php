@@ -72,7 +72,8 @@ class ExtractStudentsService
                     $moduleBlock = trim($m[5]);
 
                     // Normaliza o nome para "Título" (opcional)
-                    $name = mb_convert_case(mb_strtolower($nameRaw, 'UTF-8'), MB_CASE_TITLE, 'UTF-8');
+                    // $name = mb_convert_case(mb_strtolower($nameRaw, 'UTF-8'), MB_CASE_TITLE, 'UTF-8');
+                    $name = $nameRaw;
 
                     // Quebra o bloco de módulos por linhas
                     $rowsMod = preg_split('/\n+/', $moduleBlock);
@@ -87,8 +88,18 @@ class ExtractStudentsService
 
                         if (preg_match('/\s*(.+?)\s+(\d{1,3})\s+(\d{1,3})$/u', $ln, $mm)) {
                             $nameRawParts = explode('-', trim(string: $mm[1]));
+
                             // Find module ID
                             $module = $allModules->firstWhere('name', trim(string: $mm[1]));
+
+                            if (!$module) {
+                                $createdModule = self::createModule(trim(string: $mm[1]), (int) (trim(string: $mm[0]) ?? 20) + 200);
+                                if ($createdModule) {
+                                    $allModules->push((object) $createdModule);
+                                    $module = $createdModule;
+                                }
+                            }
+
                             $isCurrent = trim(string: $mm[1]) === $team->module->name;
                             $modules[] = [
                                 'id' => $module->id ?? null,
@@ -111,7 +122,6 @@ class ExtractStudentsService
                         'id' => $id,
                         'name' => $name,
                         'status' => $status,
-                        // 'team_id' => (int) $teamId,
                         'schedule' => $schedule,
                         'saved' => false,
                         'modules' => $modules,
@@ -122,26 +132,18 @@ class ExtractStudentsService
         }
 
         // Remover ids 72852 e 72896 do array de alunos apenas para teste
-        $students = array_filter($students, fn($student) => $student['id'] !== 72852);
-        $students = array_filter($students, fn($student) => $student['id'] !== 72896);
+        // $students = array_filter($students, fn($student) => $student['id'] !== 72852);
+        // $students = array_filter($students, fn($student) => $student['id'] !== 72896);
 
         // Conferência dos ids
         $totalIds = count($ids);
         $totalExtractedStudents = count($students);
 
-        // Elimina duplicados no array de ids (caso apareçam repetidos por algum motivo)
         $uniqueIds = array_unique($ids);
 
         // Diferença: ids no texto mas não no array de alunos
         $extractedIds = array_column($students, 'id');
         $missing = array_diff($uniqueIds, $extractedIds);
-
-        // Saída
-        // echo "Turma detectada: {$teamId}<br>\n";
-        // echo "Prefixo da turma: {$teamPrefix}<br>\n";
-        // echo "IDs encontrados no texto (com possíveis repetições): {$totalIds}<br>\n";
-        // echo "IDs únicos no texto: " . count($uniqueIds) . "<br>\n";
-        // echo "Total de alunos extraídos: {$totalExtractedStudents}<br><hr>\n";
 
         if (count($extractedIds) != $team->students_number) {
             $quantityPassed = false;
@@ -158,5 +160,16 @@ class ExtractStudentsService
             'missing_ids' => array_values($missing),
             'students' => $students,
         ];
+    }
+
+    public static function createModule($moduleName, $moduleCode)
+    {
+        $module = Module::create([
+            'code' => $moduleCode,
+            'position' => (int) substr((string) $moduleCode, 1, 2),
+            'name' => $moduleName,
+        ]);
+
+        return $module;
     }
 }

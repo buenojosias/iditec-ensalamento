@@ -69,7 +69,6 @@
                                             @endif
                                             {{ $module['name'] }}
                                         </div>
-                                        {{-- @dump($module) --}}
                                     @endforeach
                                 </div>
                             </td>

@@ -72,13 +72,19 @@ class ExtractTeamsService
 
             $module = $modules->firstWhere('name', $moduleName);
             if (!$module) {
-                $pendingModules[] = [
-                    'id' => $classCode,
-                    'schedule' => $schedule,
-                    'module_code' => $moduleCode,
-                    'module_name' => $moduleName,
-                    'students_number' => $students,
-                ];
+                $createdModule = self::createModule($moduleName, $moduleCode);
+                if ($createdModule) {
+                    $modules->push((object) $createdModule);
+                    $module = $createdModule;
+                } else {
+                    $pendingModules[] = [
+                        'id' => $classCode,
+                        'schedule' => $schedule,
+                        'module_code' => $moduleCode,
+                        'module_name' => $moduleName,
+                        'students_number' => $students,
+                    ];
+                }
             }
 
             $teams[] = [
@@ -93,6 +99,16 @@ class ExtractTeamsService
 
         unlink($file);
         return ['teams' => $teams, 'pending_modules' => $pendingModules];
+    }
 
+    public static function createModule($moduleName, $moduleCode)
+    {
+        $module = Module::create([
+            'code' => $moduleCode,
+            'position' => (int) substr((string) $moduleCode, 1, 2),
+            'name' => $moduleName,
+        ]);
+
+        return $module;
     }
 }

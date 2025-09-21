@@ -12,12 +12,13 @@ class Show extends Component
     public function mount(Team $team)
     {
         $this->team = $team;
-        $this->team->load(['module', 'students']);
+        $this->team->load('module');
+        $this->team->loadCount('students');
     }
 
     public function render()
     {
         return view('livewire.teams.show')
-            ->title("Turma {$this->team->id} ({$this->team->module->name})");
+            ->title("Turma");
     }
 }

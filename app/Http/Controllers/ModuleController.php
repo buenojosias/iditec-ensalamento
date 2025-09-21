@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 
 class ModuleController extends Controller
 {
-    public function index()
+    public function json()
     {
-        $modules = Module::all();
+        $modules = Module::select('id', 'code', 'position', 'name', 'active')->orderBy('code')->get();
 
         return response()->json($modules);
     }

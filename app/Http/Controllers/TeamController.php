@@ -95,7 +95,7 @@ class TeamController extends Controller
                                 'name' => trim(string: $mm[1]),
                                 'grade' => (int) $mm[2],
                                 'frequency' => (int) $mm[3],
-                                'situation' => $isCurrent ? 'C' : ((int) $mm[2] >= 70 && (int) $mm[3] >= 75 ? 'A' : 'R'),
+                                'status' => $isCurrent ? 'C' : ((int) $mm[2] >= 70 && (int) $mm[3] >= 75 ? 'A' : 'R'),
                             ];
                         }
                     }
@@ -160,4 +160,88 @@ class TeamController extends Controller
 
         return response()->json([$team, $students]);
     }
+
+    public function student()
+    {
+        $studentId = 4330;
+        $file = 'aluno.pdf';
+
+        $allModules = Module::all();
+
+        $parser = new Parser();
+        $pdf = $parser->parseFile(storage_path('turmas/' . $file));
+        $text = $pdf->getText();
+
+        // Extrair código e nome do aluno (parar quando houver 2+ espaços — separador para o endereço)
+        if (preg_match('/(\d{5})\s+([\p{L}\s\.\-]+?)(?=\s{2,})/u', $text, $matches)) {
+            $student = [
+                'id' => (int) $matches[1],
+                // colapsa múltiplos espaços dentro do nome para 1 e remove espaços nas pontas
+                'name' => preg_replace('/\s+/', ' ', trim($matches[2])),
+            ];
+        } else {
+            $student = [
+                'id' => null,
+                'name' => null,
+            ];
+        }
+
+        // Extrair linhas da tabela de módulos
+        $modules = [];
+        $pattern = '/
+            (\d+)\s+                                # Código do módulo
+            ([A-Z0-9\-\sÇÉÁÍÓÚÂÊÔÃÕ]+?)\s{2,}        # Nome do módulo
+            (\d+)\s+                                # Team_id
+            (\d{2}\/\d{2}\/\d{4})\s+                 # Data início
+            (\d{2}\/\d{2}\/\d{4})\s+                 # Data fim
+            (\d+)\s+                                # Nota
+            (\d+)                                   # Frequência
+        /xu';
+
+        if (preg_match_all($pattern, $text, $matches, PREG_SET_ORDER)) {
+            foreach ($matches as $m) {
+                $endDate = date('Y-m-d', strtotime(str_replace('/', '-', $m[5])));
+                $modules[] = [
+                    'id' => $allModules->firstWhere('name', $m[2])?->id,
+                    'code' => $m[1],
+                    'name' => trim($m[2]),
+                    'team_id' => $m[3],
+                    'start' => date('Y-m-d', strtotime(str_replace('/', '-', $m[4]))),
+                    'end' => $endDate,
+                    'grade' => (int) $m[6],
+                    'frequency' => (int) $m[7],
+                    'situation' => $endDate > date('Y-m-d') && (int) $m[6] === 0 ? 'C' : (((int) $m[6] >= 70 && (int) $m[7] >= 75) ? 'A' : 'R'), // Aprovado/Reprovado
+                ];
+            }
+
+            $team = array_filter($modules, function ($mod) {
+                return $mod['grade'] === 0 && strtotime($mod['end']) >= time();
+            });
+            $currentTeam = array_first($team);
+
+            $team = Team::query()
+                ->where('module_id', $currentTeam['id'] ?? null)
+                ->where('period', 'current')
+                ->whereId($currentTeam['team_id'] ?? null)
+                ->first();
+
+            if ($team) {
+                $student['current_team_id'] = $team->id;
+                $student['schedule'] = substr($team->schedule, 0, 3);
+            } else {
+                return response()->json(['error' => 'Turma atual não encontrada'], 404);
+            }
+        }
+
+        return response()->json([$student, $modules, $team]);
+    }
+
+    public function json()
+    {
+        $teams = Team::with('students.modules')->take(50)->get();
+        $teams->makeHidden(['created_at', 'updated_at']);
+
+        return response()->json($teams);
+    }
+
 }

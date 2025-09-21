@@ -10,9 +10,6 @@ use Illuminate\Database\Seeder;
 
 class StudentSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         $modules = Module::all();
@@ -32,18 +29,18 @@ class StudentSeeder extends Seeder
 
             foreach ($createdStudents as $student) {
                 $student->modules()->attach($team->module_id, [
-                    'situation' => 'C',
+                    'status' => 'C',
                 ]);
                 for ($i = 1; $i <= rand(1, 11); $i++) {
                     $grade = rand(20, 100);
                     $frequency = rand(50, 100);
-                    $situation = ($grade >= 60 && $frequency >= 75) ? 'A' : 'R';
+                    $status = ($grade >= 60 && $frequency >= 75) ? 'A' : 'R';
                     $student->modules()->syncWithoutDetaching([
                         $modules[array_rand($noTeamModules)],
                         [
                             'grade' => $grade,
                             'frequency' => $frequency,
-                            'situation' => $situation,
+                            'status' => $status,
                         ]
                     ]);
                 }
